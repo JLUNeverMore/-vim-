@@ -1,0 +1,30 @@
+
+
+
+
+
+
+  1 set nocompatible              " required
+  2 filetype off                  " required
+  3
+  4 " set the runtime path to include Vundle and initialize
+  5 set rtp+=~/.vim/bundle/Vundle.vim
+  6 call vundle#begin()
+  7
+  8 " alternatively, pass a path where Vundle should install plugins
+  9 "call vundle#begin('~/some/path/here')
+ 10
+ 11 " let Vundle manage Vundle, required
+ 12 Plugin 'gmarik/Vundle.vim'
+ 13
+ 14 " Add all your plugins here (note older versions of Vundle used Bundle inste    ad of Plugin)
+ 15
+ 16
+ 17 " All of your Plugins must be added before the following line
+ 18 call vundle#end()            " required
+ 19 filetype plugin indent on    " required
+ 20 set nu
+ 21 syntax on
+ 22 set splitbelow
+ 23 set splitright
+"~/.vimrc" 62L, 1588C
